@@ -41,6 +41,8 @@ public class AgendaEventos {
         } else {
             System.out.println("Não há eventos futuros na agenda.");
         }
+
+
     }
 
     public static void main(String[] args) {
@@ -61,5 +63,6 @@ public class AgendaEventos {
         agendaEventos.obterProximoEvento();
 
     System.out.println("Data de hoje: " + LocalDate.now());
+
     }
 }

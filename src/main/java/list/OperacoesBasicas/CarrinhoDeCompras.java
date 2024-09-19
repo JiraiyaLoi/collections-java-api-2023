@@ -27,7 +27,7 @@ public class CarrinhoDeCompras {
     public void calcularValorTotal() {
         double total = 0;
         for (Item i : itemList) {
-            total = total + i.getPreco();
+            total += i.getPreco() * i.getQuantidade();
         }
         System.out.println("O valor total é: " + total);
     }
